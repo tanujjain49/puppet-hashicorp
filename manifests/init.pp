@@ -8,9 +8,9 @@ class hashicorp (
 
   gnupg_key { 'hashicorp':
     ensure     => present,
-    key_id     => '51852D87348FFC4C',
+    key_id     => '72D7468F',
     user       => 'root',
-    key_source => 'https://keybase.io/hashicorp/pgp_keys.asc?fingerprint=91a6e7f85d05c65630bef18951852d87348ffc4c',
+    key_source => 'https://keybase.io/hashicorp/pgp_keys.asc?C874011F0AB405110D02105534365D9472D7468F',
     key_type   => public
   }
 
